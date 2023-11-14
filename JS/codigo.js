@@ -1,0 +1,1 @@
+console.log("Hola, estamos aprendiendo a invocar codigo JS desde HTML");
