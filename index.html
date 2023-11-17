@@ -8,30 +8,46 @@
     <link rel="stylesheet" href="CSS/estilos.css">
 </head>
 <body>
-    <h1>Aprendiendo html</h1>
+    <h1 id="inicio">Aprendiendo html</h1>
+    <ul class="indice">
+        <li><a href="index.html#encabezados">Encabezados</a></li>
+        <li><a href="index.html#texto-basico">Texto basico</a></li>
+        <li><a href="index.html#texto-semantico">Texto semantico</a></li>
+        <li><a href="index.html#lorem">Lorem</a></li>
+        <li><a href="index.html#etiquetas-formateo">Etiquetas de formateo</a></li>
+        <li><a href="index.html#texto-codigo">Texto codigo</a></li>
+        <li><a href="index.html#etiqueta-semantica">Etiquetas semanticas extructurales</a></li>
+        <li><a href="index.html#etiquetas-bloque">Etiquetas de bloque vs Etiquetas de linea</a></li>
+    </ul>
     <p>Estoy aprendiendo html</p>
     <hr>
+    <h2 id="encabezados">Encabezados</h2>
     <h2>Encabezado de nivel 2</h2>
     <h3>Encabezado de nivel 3</h3>
     <h4>Encabezado de nivel 4</h4>
     <h5>Encabezado de nivel 5</h5>
     <h6>Encabezado de nivel 6</h6>
-    <hr> 
+    <hr>
+    <h2 id="texto-basico">Texto básico</h2> 
     <p>
         Palabras en: <b>Negrita</b>, <i>Cursiva</i>, <u>Subrayado</u>, e=mc<sub>2</sub>, H<sub>2</sub>O, <mark>Texto Resaltado</mark>, <small>Letras equeñas</small>  
     </p>
+    <a href="index.html#inicio">Volver arriba</a>
     <hr> 
+    <h2 id="texto-semantico">Textos semantico</h2>
     <p>
         <strong>Este texto es importante</strong>, 
         <em>Este texto hace enfasis</em>
     </p>
-    <hr> 
     <blockquote>Solo se que no se nada</blockquote> 
     <cite>Socrates</cite>
-    <hr>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>Facilis incidunt nobis ut distinctio quod vero? Quia quasi quae ex rerum, <br>tempora rem pariatur suscipit ab assumenda! Porro ipsa illum saepe!</p>
+    <a href="index.html#inicio">Volver arriba</a>
     <hr> 
-    <h2>Etiquetas de formateo</h2>
+    <h2 id="lorem">Lorem</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>Facilis incidunt nobis ut distinctio quod vero? Quia quasi quae ex rerum, <br>tempora rem pariatur suscipit ab assumenda! Porro ipsa illum saepe!</p>
+    <a href="index.html#inicio">Volver arriba</a>
+    <hr> 
+    <h2 id="etiquetas-formateo">Etiquetas de formateo</h2>
     <pre> 
     <p>Tareas por hacer:
       En el curso:
@@ -43,11 +59,14 @@
         -Hacer las compras 
         -Pagar las cuentas
     </p> 
-    </pre> 
+    </pre>
+    <a href="index.html#inicio">Volver arriba</a> 
     <hr> 
+    <h2 id="texto-codigo">Texto codigo</h2>
     <p>
         <code>Este texto esta en formato de codigo</code>
     </p> 
+    <a href="index.html#inicio">Volver arriba</a>
     <hr> 
     <pre> 
         <code>
@@ -57,8 +76,9 @@
             }
         </code>
     </pre> 
+    <a href="index.html#inicio">Volver arriba</a>
     <hr>
-    <h2>Etiquetas semanticas estructurales</h2>
+    <h2 id="etiquetas">Etiquetas semanticas estructurales</h2>
     <div style= "background-color:rgb(160, 113, 95);">DIV: Es una etiqueta contenedora que no tiene semantica</div>
     <header>HEADER: cabecera de un sitio web o una seccion</header>
     <main>MAIN: define la seccion principal del documento, solo puede existir una por documento</main>
@@ -68,8 +88,9 @@
     <aside>ASAIDE: representa contenido complementario o secundario</aside>
     <section>SECTION: representa una seccion de contenido generico</section>
     <address>ADDRESS: reperesenta una direccion fisica</address> 
+    <a href="index.html#inicio">Volver arriba</a>
     <hr>
-    <h2>Etiquetas de bloque vs Etiquetas de liena</h2>
+    <h2 id="etiquetas-bloque">Etiquetas de bloque vs Etiquetas de liena</h2>
     <div style= "background-color:cadetblue;">La etiqueta de bloque por excelencia es la DIV</div>
     <span style= "background-color:cornflowerblue;">La etiquta de linea por excelencia es la SPAN</span> 
     <span>Hola soy otra SPAN</span>
@@ -77,17 +98,20 @@
         console.log("Hola, estamos aprendiendo HTML");
     </script>
     <script src="JS/codigo.js"></script>
+    <a href="index.html#inicio">Volver arriba</a>
     <hr>
-    <h2>imgenes</h2>
+    <h2 id="imagen">imgenes</h2>
     <img src="imagenes/gifanimado.gif" alt="imagenes de prueba"> 
     <img src="imagenes/imagen 1.jpg" alt="imagenes de prueba">
     <img src="imagenes/imagen-2.png" alt="imagenes de prueba">
+    <a href="index.html#inicio">Volver arriba</a>
     <hr>
-    <h2>Figuras</h2>
+    <h2 id="figuras">Figuras</h2>
     <figure><img src="imagenes/gifanimado.gif" alt="imagenes de prueba"></figure>
-    <figcaption>imagenes de prueba</figcaption> 
+    <figcaption>imagenes de prueba</figcaption>
+    <a href="index.html#inicio">Volver arriba</a> 
     <hr>
-    <h2>Listas ordenadas</h2>
+    <h2 id="listas">Listas ordenadas</h2>
     <h3>Estaciones del año</h3>
     <ol>
         <li>Primavera</li>
@@ -101,6 +125,16 @@
         <li>Otoño</li>
         <li>Invierno</li>
     </ol>
+    <a href="index.html#inicio">Volver arriba</a>
+    <hr>
+    <h2 id="enlaces">enlaces</h2>
+    <a href="index.html">ir al archivo principal</a>
+    
+    <a href="https://www.youtube.com/" target="_blank" rel="nofollow">youtube</a>
+    <br><br>
+    <a href="https://web.whatsapp.com/"target="_blank"><img src="imagenes/whatsapp.png" alt="Esta imagen de whatsapp" width="50" height="50"></a>
+    <a href="index.html#inicio">Volver arriba</a>
+
     
 </body>
 </html>
