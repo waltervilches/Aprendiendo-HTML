@@ -20,4 +20,9 @@ a {
 li {
     list-style-type: none;
     
+} 
+.estilo1{
+    color: blueviolet;
+    font-size: 30px;
+    font-size: 60px;
 }
