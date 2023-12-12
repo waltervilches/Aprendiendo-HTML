@@ -1,0 +1,16 @@
+.nav-enlace{
+    display: inline-block;
+    background-color: green;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: mediumaquamarine;
+}
+nav{
+    background: darkorchid;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
